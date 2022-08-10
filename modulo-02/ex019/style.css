@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #001370;
+}
+
+h1 {
+    color: #005CF0;
+}
+ /*Pode usar id e class no mesmo elemento, mas id sobrepõe a class*/
+h1#principal {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: white;
+}
+
+.teste{
+    background-color: #0024D6;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.subtitulo {
+    color: #005CF0;
+}
+
+.basico {
+    color: #04F04B;
+    font-weight: 700;
+}
+.intermediario {
+    color: rgba(255, 255, 0, 0.664);
+    font-weight: 700;
+}
+
+.avancado {
+    color: rgba(255, 0, 0, 0.705);
+    font-weight: 700;
+}
+
+.destaque {
+    background-color: black;
+}
