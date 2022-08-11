@@ -5,8 +5,9 @@
 }
 
 body {
-    background-image: linear-gradient(to left, #027373, #04BFAD); /* Cria um degradê */
+    background-image: linear-gradient(to top, #027373, #04BFAD); /* Cria um degradê */
 }
+
 
 main {
     background-color: white; 
@@ -30,8 +31,6 @@ h2 {
 h3 {
     color: #172026;
 }
-
-
 
 p {
     text-align: justify;
